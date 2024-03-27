@@ -5,6 +5,7 @@ body {
 
 .heading {
     color: white;
+    text-align: center;
 }
 
 /* Image on Homepage */
@@ -17,4 +18,19 @@ body {
 /* Ruleset Div */
 .ruleset {
     color: white;
+    text-align: center;
+}
+
+/* Button to begin Quiz */
+#quiz-start {
+    position: absolute;
+    left: 35%;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+    #quiz-start {
+        position:absolute;
+        left: 43%;
+    }
 }
