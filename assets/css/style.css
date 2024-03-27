@@ -16,14 +16,15 @@ body {
 }
 
 /* Ruleset Div */
-.ruleset {
+.rulediv {
     color: white;
     text-align: center;
+    font-size: xx-large;
 }
 
 /* Button to begin Quiz */
 #quiz-start {
-    position: absolute;
+    position: fixed;
     left: 35%;
 }
 
@@ -31,6 +32,6 @@ body {
 @media (min-width: 768px) {
     #quiz-start {
         position:absolute;
-        left: 43%;
+        left: 46%;
     }
 }
