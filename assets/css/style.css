@@ -64,6 +64,11 @@ body {
     background-color: red;
 }
 
+/* Quiz section */
+.quiz {
+    color: white;
+}
+
 /* Media queries for larger screens */
 @media (min-width: 768px) {
     #rules-img {
