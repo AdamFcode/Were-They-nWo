@@ -41,6 +41,10 @@ body {
     font-size: xx-large;
 }
 
+.ruleset p {
+    padding: 1%;
+}
+
 /* Button to begin Quiz */
 #quiz-start {
     position: fixed;
