@@ -49,17 +49,23 @@ body {
 
 /* Button to begin Quiz */
 #quiz-start {
-    position: fixed;
-    left: 35%;
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin:auto;
+}
+
+#quiz-start:hover {
+    background-color: red;
 }
 
 /* Media queries for larger screens */
 @media (min-width: 768px) {
-    #quiz-start {
-        position:absolute;
-        left: 46%;
-    }
-
     #rules-img {
         max-width: 1000px;
         height: 500px;
