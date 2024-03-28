@@ -1,3 +1,12 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 /* General Styles */
 body {
     background: black;
@@ -19,7 +28,7 @@ body {
 .rulediv {
     color: white;
     text-align: center;
-    font-size: xx-large;
+    font-size: large;
 }
 
 /* Button to begin Quiz */
@@ -33,5 +42,11 @@ body {
     #quiz-start {
         position:absolute;
         left: 46%;
+    }
+
+    #rules-img {
+        max-width: 1000px;
+        height: 500px;
+        margin: auto;
     }
 }
