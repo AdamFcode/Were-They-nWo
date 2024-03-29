@@ -73,6 +73,59 @@ body {
     transform: translate(-50%, -50%);
 }
 
+#question-img {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#wrestler {
+    margin-left: 45px;
+}
+
+#wrestler h2 {
+    font-family: 'Creepster';
+    font-size: xx-large;
+}
+
+#question p {
+    margin-left: 45px;
+    font-family: 'Roboto Mono';
+}
+
+.btn {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 25px;
+    margin-left: 35px;
+}
+
+.next-btn {
+    font-size: 24px;
+    font-family: 'Creepster';
+    width: 200px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 25px;
+    margin-left: 35px;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.next-btn:hover {
+    background-color: red;
+}
+
 /* Media queries for larger screens */
 @media (min-width: 768px) {
     #rules-img {
