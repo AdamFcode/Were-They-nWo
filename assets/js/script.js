@@ -1,3 +1,4 @@
+// Question Array for Quiz
 const question = [
     {
         wrestler: "Buff Bagwell",
@@ -104,5 +105,5 @@ const question = [
           select: ["nWo for life!", "Jabroni!"],
           answer: "nWo for life!",
       },
-      
+
 ]
