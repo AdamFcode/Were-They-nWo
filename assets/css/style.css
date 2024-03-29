@@ -67,6 +67,10 @@ body {
 /* Quiz section */
 .quiz {
     color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Media queries for larger screens */
