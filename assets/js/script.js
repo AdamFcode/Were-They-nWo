@@ -121,3 +121,14 @@ const nextButton = document.getElementsByID('next-btn');
 let correct = 0;
 let incorrect = 0;
 let currentQuestion = 0;
+
+//Function to Display the Questions
+function displayQuestion() {
+    let q = questions[currentQuestion];
+    quizImage.querySelector('img').src = q.img;
+    wrestlerName.textContent = q.wrestler;
+    question.textContent = q.p;
+    answerOne.querySelector('p').textContent = q.select[0];
+    answerTwo.querySelector('p').textContent = q.select[1];
+    nextButton.textContent = 'Next!';
+}
