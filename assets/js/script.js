@@ -111,13 +111,13 @@ const questions = [
 // Declare Constants accessing the DOM
 const quizImage = document.getElementById('question-image');
 const wrestlerName = document.getElementById('wrestler');
-const currentQuestion = document.getElementById('question');
-const answerOne = document.getElementsByClassName('nwo');
-const answerTwo = document.getElementsByClassName('jabroni');
+const question = document.getElementById('question');
+const answerOne = document.getElementsByID('nwo');
+const answerTwo = document.getElementsByID('jabroni');
 const scoreArea = document.getElementById('score');
-const nextButton = document.getElementsByClassName('next-btn');
+const nextButton = document.getElementsByID('next-btn');
 
 //Variables for functions
 let correct = 0;
 let incorrect = 0;
-let question = 0;
+let currentQuestion = 0;
