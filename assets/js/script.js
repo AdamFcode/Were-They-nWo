@@ -109,24 +109,36 @@ const questions = [
 ]
 
 // Declare Constants accessing the DOM
-const quiz = document.getElementById('quiz');
 const quizImage = document.getElementById('question-image');
 const wrestlerName = document.getElementById('wrestler');
 const currentQuestion = document.getElementById('question');
 const answerOne = document.getElementsByClassName('nwo');
 const answerTwo = document.getElementsByClassName('jabroni');
 const scoreArea = document.getElementById('score');
+const nextButton = document.getElementsByClassName('next-btn');
 
 //Variables for functions
 let correct = 0;
 let incorrect = 0;
 let question = 0;
 
+function startQuiz() {
+question = 0;
+correct = 0;
+incorrect= 0;
+nextButton.innerHTML="Next";
+displayQuestion();
+}
+
 //Display current Question
 function displayQuestion() {
-    let q = questions[currentQuestion]
-    quizImage.querySelector('img').src = q.img;
-    currentQuestion.textContent= q.p;
-    answerOne.querySelector('nwo') = q.select[0]
-    answerTwo.querySelector('jabroni') = q.select[1]
+    let currentQuestion= questions[currentQuestionIndex];
+    let questionNumber= currentQuestionIndex +1;
+    questionElement.innerHTML = questionNumber + currentQuestion.p;
+    wrestlerNameElement.innerHTML = questionNumber + currentQuestion.wrestler;
+    quizImageElement.innerHTML = questionNumber + currentQuestion.img;
+    answerOneElement.innerHTML = questionNumber + currentQuesstion.select[0];
+    answerTwoElement.innerHTML = questionNumber + currentQuestion.select[1];
 }
+
+displayQuestion();
