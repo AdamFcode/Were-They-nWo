@@ -112,10 +112,10 @@ const questions = [
 const quizImage = document.getElementById('question-image');
 const wrestlerName = document.getElementById('wrestler');
 const question = document.getElementById('question');
-const answerOne = document.getElementsByID('nwo');
-const answerTwo = document.getElementsByID('jabroni');
+const answerOne = document.getElementById('nwo');
+const answerTwo = document.getElementById('jabroni');
 const scoreArea = document.getElementById('score');
-const nextButton = document.getElementsByID('next-btn');
+const nextButton = document.getElementById('next-btn');
 
 //Variables for functions
 let correct = 0;
