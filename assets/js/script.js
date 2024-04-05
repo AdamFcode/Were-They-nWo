@@ -1,5 +1,3 @@
-console.log('hello')
-
 // Question Array for Quiz
 const questions = [
     {
