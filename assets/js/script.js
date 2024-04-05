@@ -1,5 +1,5 @@
 // Question Array for Quiz
-const question = [
+const questions = [
     {
         wrestler: "Buff Bagwell",
         img: "assets/images/buff-bagwell.webp",
@@ -116,3 +116,8 @@ const currentQuestion = document.getElementById('question');
 const answerOne = document.getElementsByClassName('nwo');
 const answerTwo = document.getElementsByClassName('jabroni');
 const scoreArea = document.getElementById('score');
+
+//Variables for functions
+let correct = 0;
+let incorrect = 0;
+let question = 0;
