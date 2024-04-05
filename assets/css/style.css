@@ -65,7 +65,7 @@ body {
 }
 
 /* Quiz section */
-.quiz {
+#quiz {
     color: white;
     position: absolute;
     left: 50%;
@@ -97,7 +97,7 @@ body {
     font-family: 'Roboto Mono';
 }
 
-.btn {
+#nwo, #jabroni {
     font-size: 24px;
     font-family: 'Creepster';
     width: 200px;
