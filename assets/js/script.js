@@ -108,3 +108,11 @@ const question = [
 
 ]
 
+// Declare Constants accesseing the DOM
+const quiz = document.getElementById('quiz');
+const quizImage = document.getElementById('question-image');
+const wrestlerName = document.getElementById('wrestler');
+const currentQuestion = document.getElementById('question');
+const answerOne = document.getElementsByClassName('nwo');
+const answerTwo = document.getElementsByClassName('jabroni');
+const scoreArea = document.getElementById('score');
