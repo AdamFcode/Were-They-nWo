@@ -108,7 +108,7 @@ const questions = [
 
 ]
 
-// Declare Constants accesseing the DOM
+// Declare Constants accessing the DOM
 const quiz = document.getElementById('quiz');
 const quizImage = document.getElementById('question-image');
 const wrestlerName = document.getElementById('wrestler');
@@ -121,3 +121,12 @@ const scoreArea = document.getElementById('score');
 let correct = 0;
 let incorrect = 0;
 let question = 0;
+
+//Display current Question
+function displayQuestion() {
+    let q = questions[currentQuestion]
+    quizImage.querySelector('img').src = q.img;
+    currentQuestion.textContent= q.p;
+    answerOne.querySelector('nwo') = q.select[0]
+    answerTwo.querySelector('jabroni') = q.select[1]
+}
